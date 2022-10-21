@@ -30,7 +30,7 @@ RUN \
   find /var/cache/apk /tmp /var/tmp /run /var/log -mindepth 1 -delete -print
 
 # Entrypoint is tini, add command to execute
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]
 
 # rootless
 USER "dinum_backend"
