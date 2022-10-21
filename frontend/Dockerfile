@@ -28,6 +28,6 @@ RUN \
   chmod -R g=rX,o= /etc/nginx_user /data && \
   \
   # cleanup \
-  find /var/cache/apk /tmp /var/tmp /run /var/log -mindepth 1 -delete -print
+  find /var/cache/apk /tmp /var/tmp /run -mindepth 1 -delete -print
 
 
