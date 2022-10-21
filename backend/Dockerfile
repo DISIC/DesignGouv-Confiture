@@ -1,5 +1,4 @@
-ARG  IMG_BASE=latest
-FROM ghcr.io/disic/designgouvovh/base:${IMG_BASE}
+FROM ghcr.io/disic/designgouv-confiture/base:3.16.2
 
 
 COPY server.js package.json /tmp/
