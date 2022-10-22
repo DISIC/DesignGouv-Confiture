@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
     console.log('Get /');
     res.send({
         status: "success",
-        message: "Hello Confiture"
+        message: "Hello Confiture !"
     });
 });
 
